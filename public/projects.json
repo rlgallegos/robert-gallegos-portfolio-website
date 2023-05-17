@@ -1,0 +1,44 @@
+
+[
+    {
+      "id": 1,
+      "title": "The Restaurant Companion",
+      "description": "This is the description of Project 1.",
+      "image": "example.jpg",
+      "git": "https://example.com/project1",
+      "demo": "https://example.com/project1",
+      "languages": [
+        "Python",
+        "JavaScript (React)"
+      ],
+      "skills": [
+        "Backend and Frontend Deployment",
+        "Stripe API Integration",
+        "Restful, Custom, and Webhook Endpoints"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Space Blasters",
+      "description": "This is the description of Project 2.",
+      "image": "example.jpg",
+      "git": "https://example.com/project2",
+      "demo": "https://example.com/project1",
+      "languages": [
+        "JavaScript (React)"
+      ],
+      "skills": []
+    },
+    {
+      "id": 3,
+      "title": "Dad Jokes",
+      "description": "This is the description of Project 3.",
+      "image": "example.jpg",
+      "git": "https://example.com/project3",
+      "demo": "https://example.com/project1",
+      "languages": [
+        "JavaScript (Vanilla)"
+      ],
+      "skills": []
+    }
+  ]
