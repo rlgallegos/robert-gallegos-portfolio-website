@@ -6,7 +6,8 @@
       "description": "This is the description of Project 1.",
       "image": "example.jpg",
       "git": "https://example.com/project1",
-      "demo": "https://example.com/project1",
+      "demo": "https://capstone-project-ckbr.onrender.com",
+      "video": "restaurant-companion-demo-video.mp4",
       "languages": [
         "Python",
         "JavaScript (React)"
@@ -23,7 +24,8 @@
       "description": "This is the description of Project 2.",
       "image": "example.jpg",
       "git": "https://example.com/project2",
-      "demo": "https://example.com/project1",
+      "demo": "https://space-blasters.onrender.com/",
+      "video": "space-blasters-demo-video.mp4",
       "languages": [
         "JavaScript (React)"
       ],
@@ -36,6 +38,7 @@
       "image": "example.jpg",
       "git": "https://example.com/project3",
       "demo": "https://example.com/project1",
+      "video": "",
       "languages": [
         "JavaScript (Vanilla)"
       ],
