@@ -9,8 +9,8 @@ function PortfolioCard({project, aosDelay, onPopup}) {
 
     return (
         <div className="w-1/3  mx-2" >
-            <div className="relative transition-transform duration-300 hover:scale-105 border border-color-secondary" data-aos='flip-left' data-aos-delay={aosDelay}>
-                <img onClick={handleClick} className="link" src="example.jpg" alt="Visual preview of project"/>
+            <div className="relative transition-transform duration-300 hover:scale-105 border border-color-secondary p-4" data-aos='flip-left' data-aos-delay={aosDelay}>
+                <img onClick={handleClick} className="link" src={project.image} alt="Visual preview of project"/>
                 <GiClick className="absolute text-white right-2 bottom-2" />
             </div>
             
