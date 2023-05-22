@@ -31,6 +31,8 @@ function Intro(){
                         <ul className="text-secondary text-lg">
                             <li>Python</li>
                             <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>SQL</li>
                             <li>C</li>
                         </ul>
                     </div>
