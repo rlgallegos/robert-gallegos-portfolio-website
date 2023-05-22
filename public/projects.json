@@ -15,7 +15,7 @@
       "languages": [
         "Python",
         "JavaScript (React)",
-        "SQL Alchemy"
+        "SQLAlchemy"
       ],
       "skills": [
         "Backend and Frontend Deployment",
@@ -41,14 +41,19 @@
     },
     {
       "id": 3,
-      "title": "Dad Jokes",
-      "description": "This is the description of Project 3.",
-      "image": "",
-      "git": "https://example.com/project3",
-      "demo": "https://example.com/project1",
-      "video": "",
+      "title": "Freelance Wallet",
+      "description": [
+        "Freelance Wallet was a solo project designed post-graduation. Having a large quantity of friends who work either freelance or in the restaurant industry, and having done the same for years, FW was created with the intention of allowing a user to continuously update their income while keeping in mind their expenses for the month. It keeps a running tally of daily income, allowing the user to watch the amount they need to earn to meet financial expectations change dynamically.",
+        "Development was straightforward in its conception; React/Tailwind for a smooth user experience. The backend was written using Python/Flask. Of note, however, was the use of the useContext hook in conjunction with TypeScript: the combination allowing for clean, scalable, code."
+      ],
+      "image": "freelance-wallet-preview-pic.png",
+      "git": "https://github.com/rlgallegos/freelance-wallet",
+      "demo": "https://freelance-wallet.onrender.com/#/welcome",
+      "video": "freelance-wallet-demo-video.mp4",
       "languages": [
-        "JavaScript (Vanilla)"
+        "TypeScript(React)",
+        "Python",
+        "SQLAlchemy"
       ],
       "skills": []
     }
