@@ -12,7 +12,6 @@ function ProjectDetailsPopup({project, setPopup, setIsBlurry}){
     let descriptionParagraphs = project.description.map(paragraph => {
         return <p className="text-secondary text-justify mx-8 my-2">{paragraph}</p>
     })
-
     const languageList = project.languages.map(language => {
         return <li className="text-secondary" key={language}>{language}</li>
     })
@@ -43,7 +42,7 @@ function ProjectDetailsPopup({project, setPopup, setIsBlurry}){
                     </ul>
                 </div>
                 <br />
-                <button className="exit-button px-12 py-3 border border-secondary rounded-3xl text-secondary" onClick={handleExit}>Exit</button>
+                <button className="exit-button px-12 py-3 border border-secondary rounded-3xl text-secondary hover:bg-secondary hover:text-primary" onClick={handleExit}>Exit</button>
             </div>
         </div>
 

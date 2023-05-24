@@ -16,13 +16,13 @@ function PortfolioCard({project, aosDelay, onPopup}) {
             
             <h3 onClick={handleClick} className="text-secondary text-xl my-2 link" data-aos='fade-in' data-aos-delay={aosDelay + 300}>{project.title}</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 my-2 border border-color-secondary" data-aos='flip-left' data-aos-delay={aosDelay + 300}>
-                <a href={project.git} className='link w-1/2 mx-auto p-2 flex items-center'>
-                    <h4 className="text-secondary mx-2">GitHub</h4>
-                    <HiOutlineExternalLink className="text-secondary" />
+                <a href={project.git} className='link w-1/2 mx-auto p-2 flex items-center hover:bg-secondary group'>
+                    <h4 className="text-secondary mx-2 group-hover:text-primary">GitHub</h4>
+                    <HiOutlineExternalLink className="text-secondary group-hover:text-primary" />
                 </a>
-                <a href={project.demo} className="link w-1/2 mx-auto p-2 flex items-center">
-                    <h4 className="text-secondary mx-2">Demo</h4>
-                    <HiOutlineExternalLink className="text-secondary" />
+                <a href={project.demo} className="link w-1/2 mx-auto p-2 flex items-center  hover:bg-secondary group">
+                    <h4 className="text-secondary mx-2 group-hover:text-primary">Demo</h4>
+                    <HiOutlineExternalLink className="text-secondary group-hover:text-primary" />
                 </a>
             </div>
         </div>
