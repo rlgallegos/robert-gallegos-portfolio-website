@@ -27,7 +27,7 @@
       "id": 2,
       "title": "Space Blasters",
       "description": [
-        "Space Blasters was created while my second month at Flatiron in React in a team of three developers. Its essentially a retro, arcade-style space shooter game. Focusing on the audio-visual aspects were of specific importance, given the nature of the project. Frontend validation was achieved using bcrypt within the React framework. All routing is front-end, taking advantage of the 'react-router-dom' library. Allowing the use of a leaderboard and saved stats for each user required enabling full CRUD capabilities within the React component tree.",
+        "Space Blasters was created while in my second month at Flatiron in React in a team of three developers. Its essentially a retro, arcade-style space shooter game. Focusing on the audio-visual aspects were of specific importance, given the nature of the project. Frontend validation was achieved using bcrypt within the React framework. All routing is front-end, taking advantage of the 'react-router-dom' library. Allowing the use of a leaderboard and saved stats for each user required enabling full CRUD capabilities within the React component tree.",
         "Deployment was accomplished using express and json-server to manage frontend and backend connections."
       ],
       "image": "space-blasters-preview-pic.png",
@@ -37,7 +37,9 @@
       "languages": [
         "JavaScript (React)"
       ],
-      "skills": []
+      "skills": [
+        "Express (JavaScript)"
+      ]
     },
     {
       "id": 3,

@@ -12,7 +12,6 @@ function ProjectDetailsPopup({project, setPopup, setIsBlurry}){
     let descriptionParagraphs = project.description.map(paragraph => {
         return <p className="text-secondary text-justify mx-8 my-2">{paragraph}</p>
     })
-
     const languageList = project.languages.map(language => {
         return <li className="text-secondary" key={language}>{language}</li>
     })
