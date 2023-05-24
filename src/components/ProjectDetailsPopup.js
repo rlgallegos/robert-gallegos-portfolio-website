@@ -42,7 +42,7 @@ function ProjectDetailsPopup({project, setPopup, setIsBlurry}){
                     </ul>
                 </div>
                 <br />
-                <button className="exit-button px-12 py-3 border border-secondary rounded-3xl text-secondary" onClick={handleExit}>Exit</button>
+                <button className="exit-button px-12 py-3 border border-secondary rounded-3xl text-secondary hover:bg-secondary hover:text-primary" onClick={handleExit}>Exit</button>
             </div>
         </div>
 

@@ -57,6 +57,10 @@
         "Python",
         "SQLAlchemy"
       ],
-      "skills": []
+      "skills": [
+        "TypeScript",
+        "useContext",
+        "TailwindCSS"
+      ]
     }
   ]
