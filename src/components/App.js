@@ -22,7 +22,7 @@ function App() {
 
 
   return (
-    <div className={`App bg-primary`}>
+    <div className='App bg-cover bg-center bg-no-repeat bg-gradient-to-b from-darkBlue to-lightBlue'>
       {popup && <ProjectDetailsPopup project={popup} setPopup={setPopup} setIsBlurry={setIsBlurry} />}
       <main className={`mx-2 md:mx-6 py-2 md:py-6 flex flex-col ${isBlurry && 'blur'}`}>
           <Intro />

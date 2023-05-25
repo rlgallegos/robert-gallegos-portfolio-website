@@ -20,7 +20,7 @@ function EducationSection(){
     }
 
     return (
-        <div className="section h-auto" >
+        <div className="section mx-4 sm:mx-2" >
             <h2 className="text-secondary text-3xl font-bold my-6" data-aos='fade-in'>Education</h2>
             <div >
                 {cardList}
