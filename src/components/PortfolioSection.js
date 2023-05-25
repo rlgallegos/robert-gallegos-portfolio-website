@@ -18,9 +18,9 @@ function PortfolioSection({onPopup}) {
     }
  
     return(
-        <div className="section h-screen" data-aos='fade-in'>
-            <h2 className="text-secondary text-3xl font-bold my-6">Key Projects</h2>
-            <div className=" w-5/6 sm:3/4 mx-auto flex flex-col sm:flex-row">
+        <div className="section my-[30vh]" data-aos='fade-in'>
+            <h2 className="text-secondary text-3xl font-bold my-6 mx-auto text-center">Key Projects</h2>
+            <div className=" w-5/6 mx-auto flex flex-col lg:flex-row lg:gap-4">
                 {cardList}
             </div>
         </div>

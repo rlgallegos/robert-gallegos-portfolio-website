@@ -5,30 +5,32 @@ function Intro(){
     const tailwindCSSSubtitle = "text-secondary text-lg"
 
     return (
-        <div className="section h-screen">
-            <div className="flex justify-between" data-aos='fade-down' data-aos-delay='100' >
-                <div className="w-1/6 h-full fade-in bg-secondary flex items-center p-4 ">
-                    <img src="headshot1.jpg" />
+        <div className="section flex flex-col mx-4 md:mx-2">
+            <div className="flex flex-col md:flex-row md:justify-between space-x-4" data-aos='fade-down' data-aos-delay='100' >
+                <div className="w-1/2 md:1/3 lg:w-1/5 xl:1/6 h-full fade-in bg-secondary flex items-center p-4 mx-auto md:ml-0">
+                    <img src="headshot1.jpg" alt="headshot" />
                 </div>
-                <div className="text-right">
-                    <h1 className="text-secondary text-3xl">Robert Gallegos</h1>
-                    <h3 className={tailwindCSSSubtitle}>Software Engineer</h3>
-                    <h3 className={tailwindCSSSubtitle}>New York, NY</h3>
-
-                    <div className="my-4 border border-color-secondary p-4">
-                        <h3 className={tailwindCSSSubtitle + ' font-bold text-center'}>Contact Me</h3>
-                        <a href="mailto:rlgallegos85@gmail.com" className={tailwindCSSSubtitle + ' flex items-center'}>
-                            rlgallegos85@gmail.com<HiOutlineMail className="text-secondary mx-2" />
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/rlgallegos/" className={tailwindCSSSubtitle + ' flex items-center'}>
-                            Linkedin<HiOutlineExternalLink className="text-secondary mx-2" />
-                        </a>
+                <div className="text-center md:text-right">
+                    <div className="my-4 md:mt-0">
+                        <h1 className="text-secondary text-3xl">Robert Gallegos</h1>
+                        <h3 className={tailwindCSSSubtitle}>Software Engineer</h3>
+                        <h3 className={tailwindCSSSubtitle}>New York, NY</h3>
+                    </div>
+                    <div className="my-4 border border-color-secondary p-4 text-right">
+                        <h3 className={tailwindCSSSubtitle + ' font-bold text-center mb-2'}>Contact Me</h3>
+                        <div className="flex flex-row justify-evenly gap-6">
+                            <a href="mailto:rlgallegos85@gmail.com" className={tailwindCSSSubtitle + ' flex items-center'}>
+                                rlgallegos85@gmail.com<HiOutlineMail className="text-secondary mx-2" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/rlgallegos/" className={tailwindCSSSubtitle + ' flex items-center'}>
+                                Linkedin<HiOutlineExternalLink className="text-secondary mx-2" />
+                            </a>
+                        </div>
                     </div>
                     
                     <div className="my-4 text-left border border-color-secondary p-4">
-                        <h3 className={tailwindCSSSubtitle + ' font-bold text-center'}>Languages</h3>
-                        <ul className="text-secondary text-lg">
+                        <h3 className={tailwindCSSSubtitle + ' font-bold text-center mb-2'}>Languages</h3>
+                        <ul className="text-secondary text-lg flex flex-row justify-evenly gap-6">
                             <li>Python</li>
                             <li>JavaScript</li>
                             <li>TypeScript</li>
@@ -39,7 +41,7 @@ function Intro(){
                 </div>
             </div>
             <div data-aos='fade-down' >
-                <h3 className="text-secondary text-3xl font-bold mb-8">Introduction</h3>
+                <h3 className="text-secondary text-3xl font-bold my-8">Introduction</h3>
                 <p className="text-secondary text-justify">Born and raised in a small town in Northern California, I left my hometown
                 and moved to Southern California to attend the University of California: Riverside. I studied there, including a year abroad
                 in Lyon, FR, eventually graduating with my B.A. in French. From there, I worked, but continued my passion for languages, certifying my
