@@ -18,7 +18,7 @@ function Intro(){
                     </div>
                     <div className="my-4 border border-color-secondary p-4 text-right">
                         <h3 className={tailwindCSSSubtitle + ' font-bold text-center mb-2'}>Contact Me</h3>
-                        <div className="flex flex-row justify-evenly gap-6">
+                        <div className="flex flex-col sm:flex-row sm:justify-evenly sm:gap-6">
                             <a href="mailto:rlgallegos85@gmail.com" className={tailwindCSSSubtitle + ' flex items-center'}>
                                 rlgallegos85@gmail.com<HiOutlineMail className="text-secondary mx-2" />
                             </a>
@@ -30,7 +30,7 @@ function Intro(){
                     
                     <div className="my-4 text-left border border-color-secondary p-4">
                         <h3 className={tailwindCSSSubtitle + ' font-bold text-center mb-2'}>Languages</h3>
-                        <ul className="text-secondary text-lg flex flex-row justify-evenly gap-6">
+                        <ul className="text-secondary text-lg flex flex-wrap gap-4 sm:flex-row sm:justify-evenly sm:gap-6">
                             <li>Python</li>
                             <li>JavaScript</li>
                             <li>TypeScript</li>

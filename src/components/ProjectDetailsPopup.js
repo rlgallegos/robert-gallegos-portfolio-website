@@ -23,7 +23,7 @@ function ProjectDetailsPopup({project, setPopup, setIsBlurry}){
                 <div className="p-2 lg:p-4">
                     <h2 className="text-secondary text-3xl font-bold my-4">{project.title}</h2>
                     <div className="border-2 border-secondary rounded-lg ring-2 ring-offset-2 ring-secondary p-4 my-4 flex flex-col">
-                        <video src={project.video} autoPlay loop muted></video>
+                        <video src={project.video} autoPlay loop muted playsInline></video>
                     </div>
                     <h3 className="text-secondary text-lg font-bold text-left md:mx-8 mt-8 mb-4">Description:</h3>
                     {/* <p className="text-secondary text-justify mx-8">{project.description}</p> */}
