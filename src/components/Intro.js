@@ -41,26 +41,13 @@ function Intro(){
                 </div>
             </div>
             <div data-aos='fade-down' >
-                <h3 className="text-secondary text-3xl font-bold my-8">Introduction</h3>
-                <p className="text-secondary text-justify">Born and raised in a small town in Northern California, I left my hometown
-                and moved to Southern California to attend the University of California: Riverside. I studied there, including a year abroad
-                in Lyon, FR, eventually graduating with my B.A. in French. From there, I worked, but continued my passion for languages, certifying my
-                fluency with the French government, and attaining an advanced level in Spanish. I also studied German and Arabic. Professionally, 
-                I founded a few start-ups, eventually resulting in the development of an app currently out for IOS and Android.
-                <br /><br />
-                The original developer I worked with seemed to struggle to be able to develop the app, and so eventually I had to move on to a second 
-                developer. This second developer was incredible. He worked super efficiently, but in addition to that, he helped me to 
-                understand what the issues had been with the first developer. I found myself more intrigued than I thought I would be by the more 
-                complex intracicies of coding.
-                <br /><br />
-                After talking with this developer, I signed up for Harvard's CS50 course online. It is essentially an online course that just provides 
-                you an introduction to computer science, starting from 1's and 0's up through web-development. I learned to code in C (Grandfather C), 
-                and absolutely fell in love. I found myself coding all night until dawn, filling any space I could with problem-solving, even jotting 
-                down potential solutions on my notepad at work.
-                <br /><br />
-                From there, it's not hard to see why I signed up for a coding bootcamp. Flatiron worked with Python and JavaScript, which I had 
-                preliminary knowledge of. I just recently completed the program, but while the bootcamp is over, my education has just begun. 
-                Take a look at some of the projects below. If you have any questions, feel free to reach out!
+                <h3 className="text-secondary text-3xl font-bold my-8">Welcome!</h3>
+                <p className="text-secondary text-justify">
+                    Welcome to my portfolio! I'm a software engineer and web developer.
+                    <br /><br />
+                    I code using TypeScript / React for the frontend, and Python / Flask for the backend. Add in SQL -in its myriad forms- for the database, and 
+                    sprinkle in a little Grandfather C for fun, and you have the recipe for some pretty cool projects. Below is a curated selection of a few of my 
+                    more representative projects. Take a look!
                 </p>
             </div>
         </div>
