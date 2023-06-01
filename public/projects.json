@@ -50,7 +50,7 @@
       ],
       "image": "freelance-wallet-preview-pic.png",
       "git": "https://github.com/rlgallegos/freelance-wallet",
-      "demo": "https://freelance-wallet.onrender.com/#/welcome",
+      "demo": "https://freelance-wallet.vercel.app/",
       "video": "freelance-wallet-demo-video.mp4",
       "languages": [
         "TypeScript(React)",
