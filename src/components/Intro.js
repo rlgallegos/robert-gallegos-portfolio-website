@@ -7,8 +7,8 @@ function Intro(){
     return (
         <div className="section flex flex-col mx-4 md:mx-2">
             <div className="flex flex-col md:flex-row md:justify-between space-x-4" data-aos='fade-down' data-aos-delay='100' >
-                <div className="w-1/2 md:1/3 lg:w-1/5 xl:1/6 h-full fade-in bg-secondary flex items-center p-4 mx-auto md:ml-0">
-                    <img src="headshot1.jpg" alt="headshot" />
+                <div className="w-1/2 md:1/3 lg:w-1/5 xl:1/6 h-full fade-in  flex items-center p-4 mx-auto md:ml-0">
+                    <img className="border-4 border-secondary" src="headshot.jpg" alt="headshot" />
                 </div>
                 <div className="text-center md:text-right">
                     <div className="my-4 md:mt-0">
@@ -46,8 +46,7 @@ function Intro(){
                     Welcome to my portfolio! I'm a software engineer and web developer.
                     <br /><br />
                     I code using TypeScript / React for the frontend, and Python / Flask for the backend. Add in SQL -in its myriad forms- for the database, and 
-                    sprinkle in a little Grandfather C for fun, and you have the recipe for some pretty cool projects. Below is a curated selection of a few of my 
-                    more representative projects. Take a look!
+                    sprinkle in a little Grandfather C for fun, and you have the recipe for some pretty cool projects. Below is a curated selection of a few of them. Take a look!
                 </p>
             </div>
         </div>
