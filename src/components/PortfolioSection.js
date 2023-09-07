@@ -1,12 +1,7 @@
-import { useEffect, useState } from "react";
 import PortfolioCard from "../assets/PortfolioCard";
+import { projects } from "../data";
 
 function PortfolioSection({onPopup, portfolioSectionRef}) {
-    const [projects, setProjects] = useState(null)
-
-    useEffect(() => {
-        fetch('/projects.json').then(res => res.json().then(data => setProjects(data)))
-    }, [])
 
     let cardList = []
     if (projects){
