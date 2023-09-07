@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-import EducationCard from "./EducationCard"
+import EducationCard from "../assets/EducationCard"
 
 
 function EducationSection(){
