@@ -54,3 +54,70 @@ export const testimonials = [
         I'd absolutely recommend Robert." `
     },
 ]
+
+export const projects = [
+    {
+      "id": 1,
+      "title": "Skyvault",
+      "description": [
+        "Restaurant Companion is a full-stack, mobile-responsive application developed as a capstone project at Flatiron. Its intended use is to smooth out two of the most difficult aspects of server-guest communication in the restaurant industry: language, and allergies. From the guest perspective, a QR code is given to them directly leading them to the restaurant companion for the given restaurant. On scanning, the user can tap filter through the allergies the restaurant has on its menu, as well as translate the dish and its allergies, building the order as they go in whatever language(s) they choose. Once they are finished, the order is translated into english, allowing them to see both the translated and untranslated version of the order, and assigning them a number. From here, they can show the order to the server, or, optionally, give the designated order number to the  server who can, themselves, pull up the english version of the order via a hidden route.",
+        "From the managerial perspective, the manager creates a restaurant, and before being allowed to navigate freely, is required to sign up for a 14-day free trial on Stripe. They can create new users, give them specific roles, build a menu with its specific dishes and allergies, and manage their account settings including payment details with Stripe, etc, from inside the 'Manager Portal'.",
+        "Developing the Restaurant Companion required the use of several different languages/frameworks. Frontend was React, leveraging its component structure to split the website into the two 'portals.' Styling was accomplished using TailwindCSS. Flask was the web framework chosen; using RESTFUL routes where logical and custom routes where necessary. The backend language was Python which allowed integration with Google Translate's library (googletrans). An online database (PostgreSQL) was used, with flask-migrate handling all migrations. Authorization and authentication were handled by 'bcrypt.'"
+      ],
+      "image": "skyvault-preview-pic.png",
+      "git": "https://github.com/rlgallegos/skyvault-website",
+      "demo": "https://skyvaultinventory.com",
+      "video": "skyvault-website-demo.mov",
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript (React)",
+        "Tailwind CSS"
+      ],
+      "skills": [
+        "User-driven UI/UX",
+        "Mobile-responsive design"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The Restaurant Companion",
+      "description": [
+        "Restaurant Companion is a full-stack, mobile-responsive application developed as a capstone project at Flatiron. Its intended use is to smooth out two of the most difficult aspects of server-guest communication in the restaurant industry: language, and allergies. From the guest perspective, a QR code is given to them directly leading them to the restaurant companion for the given restaurant. On scanning, the user can tap filter through the allergies the restaurant has on its menu, as well as translate the dish and its allergies, building the order as they go in whatever language(s) they choose. Once they are finished, the order is translated into english, allowing them to see both the translated and untranslated version of the order, and assigning them a number. From here, they can show the order to the server, or, optionally, give the designated order number to the  server who can, themselves, pull up the english version of the order via a hidden route.",
+        "From the managerial perspective, the manager creates a restaurant, and before being allowed to navigate freely, is required to sign up for a 14-day free trial on Stripe. They can create new users, give them specific roles, build a menu with its specific dishes and allergies, and manage their account settings including payment details with Stripe, etc, from inside the 'Manager Portal'.",
+        "Developing the Restaurant Companion required the use of several different languages/frameworks. Frontend was React, leveraging its component structure to split the website into the two 'portals.' Styling was accomplished using TailwindCSS. Flask was the web framework chosen; using RESTFUL routes where logical and custom routes where necessary. The backend language was Python which allowed integration with Google Translate's library (googletrans). An online database (PostgreSQL) was used, with flask-migrate handling all migrations. Authorization and authentication were handled by 'bcrypt.'"
+      ],
+      "image": "restaurant-companion-preview-pic.png",
+      "git": "https://github.com/rlgallegos/restaurant-companion",
+      "demo": "https://capstone-project-ckbr.onrender.com",
+      "video": "restaurant-companion-demo-video.mp4",
+      "languages": [
+        "Python",
+        "JavaScript (React)",
+        "SQLAlchemy"
+      ],
+      "skills": [
+        "Backend/Frontend Deployment",
+        "Stripe API Integration",
+        "Restful, Custom, and Webhook Endpoints"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Space Blasters",
+      "description": [
+        "Space Blasters was created while in my second month at Flatiron in React in a team of three developers. Its essentially a retro, arcade-style space shooter game. Focusing on the audio-visual aspects were of specific importance, given the nature of the project. Frontend validation was achieved using bcrypt within the React framework. All routing is front-end, taking advantage of the 'react-router-dom' library. Allowing the use of a leaderboard and saved stats for each user required enabling full CRUD capabilities within the React component tree.",
+        "Deployment was accomplished using express and json-server to manage frontend and backend connections."
+      ],
+      "image": "space-blasters-preview-pic.png",
+      "git": "https://github.com/rlgallegos/space-blasters",
+      "demo": "https://space-blasters.onrender.com/",
+      "video": "space-blasters-demo-video.mp4",
+      "languages": [
+        "JavaScript (React)"
+      ],
+      "skills": [
+        "Express (JavaScript)"
+      ]
+    }
+  ]
