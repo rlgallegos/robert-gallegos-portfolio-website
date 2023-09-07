@@ -2,7 +2,7 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 import { GiClick } from "react-icons/gi"
 import { useState } from "react";
 
-function PortfolioCard({project, aosDelay, onPopup}) {
+function PortfolioCard({project, onPopup}) {
     const [expandDetails, setExpandDetails] = useState(false)
 
     function handleClick(){
@@ -22,7 +22,7 @@ function PortfolioCard({project, aosDelay, onPopup}) {
     return (
         <div className="relative w-full sm:w-3/4 mx-auto bg-white flex flex-col md:flex-row" >
 
-            <div className="w-full md:w-4/5 border border-slate-800 p-4" data-aos='flip-left' data-aos-delay={aosDelay}>
+            <div className="w-full md:w-4/5 border border-slate-800 p-4" >
                 <img onClick={handleClick} className="link" src={project.image} alt="preview of project"/>
             </div>
             
