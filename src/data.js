@@ -32,7 +32,7 @@ export const testimonials = [
     {
         id: 1,
         name: "Tayler",
-        pic: "/tayler-pic.png",
+        pic: "/tayler-pic.jpeg",
         text: ` “I have worked with a few independent developers before, but Robert has been the best.
         He was reliable, efficient, and created exactly what I asked for. 
         My website looks amazing and has already gotten more traction than my previous page.” `
@@ -40,14 +40,14 @@ export const testimonials = [
     {
         id: 2,
         name: "David",
-        pic: "/david-pic.png",
+        pic: "/david-pic.jpeg",
         text: ` "Working with Robert has been an awesome. 
         His tech skills are top-notch, and he's a joy to collaborate with!" `
     },
     {
         id: 3,
         name: "Marisa",
-        pic: "/marisa-pic.png",
+        pic: "/marisa-pic.jpeg",
         text: ` "Thrilled with the results. 
         Robert understood my project, and communication was seamless. 
         He was extremely professional and his attention to detail, technical skills, and creativity set him apart. 
