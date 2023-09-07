@@ -40,7 +40,7 @@ function Current({currentRef}){
 
                 <div className="bg-white w-[95vw] flex flex-col mx-auto p-8 border border-slate-800">
                     <div onClick={handleExpandWorking} 
-                    className="py-2 md:w-1/3 flex items-center justify-center md:mb-4 border border-slate-800 active:bg-tertiary md:bg-transparent">
+                    className="py-2 md:w-1/3 flex items-center justify-center md:mb-4 border border-slate-800 active:bg-tertiary md:active:bg-transparent">
                         <h3 className="text-lg font-bold">What I'm Working On</h3>
                     </div>
                     <div className={`flex flex-col md:max-h-screen md:mt-0 text-justify translate-all duration-500 overflow-hidden ${isExpandedWorking ? 'max-h-screen mt-4' : 'max-h-0 md:max-h-auto'}`}>
