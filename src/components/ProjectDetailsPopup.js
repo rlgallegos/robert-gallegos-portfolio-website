@@ -1,8 +1,6 @@
-import { useState } from "react"
 
 
 function ProjectDetailsPopup({project, setPopup, setIsBlurry}){
-    const [isLoaded, setIsLoaded] = useState(false)
 
     function handleExit(e){
         if (!e.target.closest(".popup") || e.target.textContent === 'Exit') {
@@ -22,11 +20,8 @@ function ProjectDetailsPopup({project, setPopup, setIsBlurry}){
                 <div className="p-2 lg:p-4">
                     <h2 className="text-3xl font-bold my-4">{project.title}</h2>
                     <div className="border-2 border-slate-800 rounded-lg ring-2 ring-offset-2 ring-slate-800 p-4 my-4 flex flex-col relative">
-                    {!isLoaded && <p className="mx-auto text-lg absolute left-1/2 -translate-x-1/2 top-1/4">Preview Loading...</p>}
                     <video 
-                    onLoadedData={() => setIsLoaded(true)}
                     src={project.video}
-                    controls
                     autoPlay 
                     loop 
                     muted 
