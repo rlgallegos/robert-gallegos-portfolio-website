@@ -1,7 +1,6 @@
 
 
 function Snapshot({showSnapshot}){
-    console.log(showSnapshot)
     return (
         <div className={`w-full flex flex-col gap-y-4 translate-all h-0 py-4 overflow-hidden ${showSnapshot ? 'h-3/4 duration-500' : '' }`}>
             
