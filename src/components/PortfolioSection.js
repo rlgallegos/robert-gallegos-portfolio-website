@@ -10,10 +10,8 @@ function PortfolioSection({onPopup, portfolioSectionRef}) {
 
     let cardList = []
     if (projects){
-        let delay = 0
         cardList = projects.map(project => {
-            delay += 100
-            return <PortfolioCard key={project.id} project={project} aosDelay={delay} onPopup={onPopup}/>
+            return <PortfolioCard key={project.id} project={project} onPopup={onPopup}/>
         })
     }
  
