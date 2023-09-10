@@ -41,8 +41,8 @@ export const testimonials = [
         id: 2,
         name: "David",
         pic: "/david-pic.jpeg",
-        text: ` "Working with Robert has been an awesome. 
-        His tech skills are top-notch, and he's a joy to collaborate with!" `
+        text: ` "Working with Robert has been awesome! 
+        His tech skills are top-notch, and he's a joy to collaborate with." `
     },
     {
         id: 3,
