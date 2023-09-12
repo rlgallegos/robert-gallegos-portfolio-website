@@ -115,7 +115,7 @@ export const projects = [
       ],
       "image": "space-blasters-preview-pic.jpeg",
       "git": "https://github.com/rlgallegos/space-blasters",
-      "demo": "space-blasters.vercel.app/",
+      "demo": "https://space-blasters.vercel.app/",
       "video": "space-blasters-demo-video.mp4",
       "languages": [
         "JavaScript (React)",
