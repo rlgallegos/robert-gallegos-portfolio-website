@@ -92,7 +92,7 @@ export const projects = [
       ],
       "image": "restaurant-companion-preview-pic.jpeg",
       "git": "https://github.com/rlgallegos/restaurant-companion",
-      "demo": "https://capstone-project-ckbr.onrender.com",
+      "demo": "https://restaurant-companion.vercel.app/",
       "video": "restaurant-companion-demo-video.mp4",
       "languages": [
         "Python",
