@@ -103,7 +103,8 @@ export const projects = [
       "skills": [
         "Backend/Frontend Deployment",
         "Stripe API Integration",
-        "Restful, Custom, and Webhook Endpoints"
+        "Restful, Custom, and Webhook Endpoints",
+        "GogoleTrans Library"
       ]
     },
     {
