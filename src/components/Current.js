@@ -17,7 +17,7 @@ function Current({currentRef}){
             <div className="mx-auto my-6 w-3/4 md:w-1/3 p-4 bg-white border border-slate-800">
                 <h2 className="text-xl md:text-3xl font-bold ">Current Endeavors</h2>
             </div>
-            <div className="flex flex-col md:flex-row w-full md:w-5/6 justify-evenly gap-4 mx-auto">
+            <div className="flex flex-col md:flex-row w-full md:w-[75vw] justify-evenly gap-4 mx-auto">
 
                 <div className="bg-white w-[95vw] flex flex-col mx-auto p-8 border border-slate-800">
                     <div onClick={handleExpandLearning} 
