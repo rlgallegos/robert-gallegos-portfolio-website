@@ -34,6 +34,12 @@ function Current({currentRef}){
                                 learning as well as knowledge of artificial intelligence principles that enable 
                                 them to design intelligent systems of their own.
                             </p>
+                            <h4 className="text-xl">AWS Cloud Practitioner Preparation</h4>
+                            <p className="w-full text-justify indent-5">
+                            This preparation course is an introductory program designed to provide foundational knowledge 
+                            of Amazon Web Services (AWS). It covers essential cloud concepts, AWS services, pricing, and helps prepare 
+                            individuals for the AWS Certified Cloud Practitioner certification exam.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -51,9 +57,10 @@ function Current({currentRef}){
                                 <li>Integration with an Email Marketing / Delivery Service API</li>
                                 <li>Minor CSS Changes</li>
                             </ul>
-                            <h4 className="text-xl">Freelance Website</h4>
+                            <h4 className="text-xl">Freelance Websites</h4>
                             <ul>
                                 <li>Marketing website for a Life Coach</li>
+                                <li>Portfolio website for a Stylist</li>
                             </ul>
                         </div>
                     </div>
