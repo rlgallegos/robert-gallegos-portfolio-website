@@ -55,6 +55,7 @@ function Current({currentRef}){
                             <ul>
                                 <li>Integration with the Skyvault IOS and Android App</li>
                                 <li>Integration with an Email Marketing / Delivery Service API</li>
+                                <li>Implement CRUD capabilities for User Data</li>
                                 <li>Minor CSS Changes</li>
                             </ul>
                             <h4 className="text-xl">Freelance Websites</h4>
