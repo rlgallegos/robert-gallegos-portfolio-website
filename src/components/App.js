@@ -8,9 +8,6 @@ import Current from './Current';
 
 import { useRef, useState } from 'react';
 
-
-
-
 function App() {
     const [popup, setPopup] = useState(null)
     const [isBlurry, setIsBlurry] = useState(false)

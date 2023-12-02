@@ -26,14 +26,15 @@ function Current({currentRef}){
                     </div>
                     <div className={`flex flex-col md:max-h-screen md:mt-0 text-justify translate-all duration-500 overflow-hidden ${isExpandedLearning ? 'max-h-screen mt-4' : 'max-h-0 md:max-h-auto'}`}>
                         <div className="flex flex-col gap-2">
-                            <h4 className="text-xl">CS50’s Introduction to Artificial Intelligence with Python</h4>
-                            <p className="w-full text-justify indent-5">
-                                This course explores the concepts and algorithms at the foundation of modern artificial intelligence, 
-                                diving into the ideas that give rise to technologies like game-playing engines, handwriting recognition, 
-                                and machine translation. By course’s end, students emerge with experience in libraries for machine 
-                                learning as well as knowledge of artificial intelligence principles that enable 
-                                them to design intelligent systems of their own.
-                            </p>
+                            <h4 className="text-xl">Stanford / DeepLearning.AI Machine Learning Specialization</h4>
+                            <p className="w-full text-justify indent-5">Learning the fundamentals of machine learning from world-renowned expert Andrew Ng</p>
+                            <ul>
+                                <li>- Supervised learning algorithms, including linear regression, logistic regression, and decision trees</li>
+                                <li>- Unsupervised learning algorithms, including k-means clustering and principal component analysis</li>
+                                <li>- Reinforcement learning algorithms, including Q-learning and policy gradient methods</li>
+                                <li>- Deep learning architectures, including convolutional neural networks and recurrent neural networks</li>
+                                <li>- How to build and train machine learning models using Python and TensorFlow</li>
+                            </ul>
                             <h4 className="text-xl">AWS Cloud Practitioner Preparation</h4>
                             <p className="w-full text-justify indent-5">
                             This preparation course is an introductory program designed to provide foundational knowledge 
@@ -47,20 +48,21 @@ function Current({currentRef}){
                 <div className="bg-white w-[95vw] flex flex-col mx-auto p-8 border border-slate-800">
                     <div onClick={handleExpandWorking} 
                     className="py-2 md:w-1/3 flex items-center justify-center md:mb-4 border border-slate-800 active:bg-tertiary md:active:bg-transparent">
-                        <h3 className="text-lg font-bold">What I'm Working On</h3>
+                        <h3 className="text-lg font-bold">What I'm Doing</h3>
                     </div>
                     <div className={`flex flex-col md:max-h-screen md:mt-0 text-justify translate-all duration-500 overflow-hidden ${isExpandedWorking ? 'max-h-screen mt-4' : 'max-h-0 md:max-h-auto'}`}>
                         <div className="flex flex-col gap-2">
+                            <h4 className="text-xl">Current Employment</h4>
+                            <ul>
+                                <li className="underline">Vanguard Web Solutions</li>
+                                <li>- Employed as a full stack software engineer</li>
+                            </ul>
                             <h4 className="text-xl">Skyvault</h4>
                             <ul>
-                                <li>Integration with the Skyvault IOS and Android App</li>
-                                <li>Integration with an Email Marketing / Delivery Service API</li>
-                                <li>Minor CSS Changes</li>
-                            </ul>
-                            <h4 className="text-xl">Freelance Websites</h4>
-                            <ul>
-                                <li>Marketing website for a Life Coach</li>
-                                <li>Portfolio website for a Stylist</li>
+                                <li>- Integration with the Skyvault IOS and Android App</li>
+                                <li>- Integration with an Email Marketing / Delivery Service API</li>
+                                <li>- Implement CRUD capabilities for User Data</li>
+                                <li>- Minor CSS Changes</li>
                             </ul>
                         </div>
                     </div>
